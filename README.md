@@ -4,9 +4,13 @@
 
 **Laser-based digital communication with Hamming single-bit error correction.**
 
+> **[Read the full project report (PDF)](HammingLight_Project_Report.pdf)**
+>
+> Start here: the 14-page report covers the hardware, circuit diagrams, working principles, error correction, and validation.
+
 A breadboard hardware project combining optical transmission, an LDR-based receiver, discrete digital logic, and seven-segment displays. The documentation connects the prototype to the principles of parity generation, error detection, and selected-bit correction.
 
-[Project report (PDF)](docs/HammingLight_Project_Report.pdf) · [How it works](#how-it-works) · [Circuit diagrams](#circuit-diagrams) · [Run the reference demo](#run-the-reference-demo) · [Documentation](#documentation)
+[How it works](#how-it-works) · [Circuit diagrams](#circuit-diagrams) · [Run the reference demo](#run-the-reference-demo) · [Documentation](#documentation)
 
 ![Edited HammingLight prototype photo with loose external test leads removed](assets/photos/04-prototype-cleaned-no-test-leads.png)
 
@@ -146,7 +150,7 @@ These illustrations use the original photos as visual references. Component appe
 
 | Resource | Contents |
 | --- | --- |
-| [Full report (PDF)](docs/HammingLight_Project_Report.pdf) | 14 illustrated pages covering the system, circuits, calculations, and limitations |
+| [Full report (PDF)](HammingLight_Project_Report.pdf) | Main review document, available directly in the repository root |
 | [Editable report](docs/report.md) | Technical explanation in Markdown |
 | [Circuit guide](docs/circuit-diagrams.md) | Gate networks and electrical interfaces |
 | [Component inventory](docs/components.md) | Roles, identification status, and interface considerations |
@@ -159,10 +163,11 @@ These illustrations use the original photos as visual references. Component appe
 
 | Path | Contents |
 | --- | --- |
+| `HammingLight_Project_Report.pdf` | Main project report, visible in the top-level file list |
 | `assets/photos/` | Unchanged original photos and the cleaned overview |
 | `assets/illustrations/` | Generated concept illustrations |
 | `assets/diagrams/` | Eight SVG/PNG assets: banner and seven technical figures |
-| `docs/` | Report, circuit notes, evidence analysis, and testing guidance |
+| `docs/` | Supporting notes, editable report, evidence analysis, and testing guidance |
 | `reference/` | Standard-library Python reference model |
 
 ## Current record and next steps
