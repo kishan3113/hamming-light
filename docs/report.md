@@ -6,9 +6,9 @@ Project report prepared on 16 October 2026.
 
 Repository: https://github.com/kishan3113/hamming-light
 
-![Actual prototype photo with AI-assisted background cleanup](../assets/photos/04-prototype-cleaned.png)
+![Edited prototype photo with background cleanup and loose test-lead removal](../assets/photos/04-prototype-cleaned-no-test-leads.png)
 
-The original photograph is retained separately; the edited cover image has a neutral background and clarity adjustments.
+The original photograph is retained separately. The cover image has a neutral background, clarity adjustments, and the two loose external red/black test leads removed.
 
 
 ## 01. Project overview
@@ -344,4 +344,4 @@ The builder supplied the project description and three photographs. No original 
 | photo_2026-10-16_18-25-21.jpg | 02-input-assembly.jpg |
 | photo_2026-10-16_18-25-22.jpg | 03-powered-detail.jpg |
 
-The three original repository photos remain unchanged. The cover uses an edited version of the overall photo with AI-assisted background cleanup; its edit record is in docs/photo-edit.md. Two concept illustrations and seven technical figures accompany it. Image prompts are recorded in docs/image-prompts.md. The reference model is a documentation companion, not hardware firmware.
+The three original repository photos remain unchanged. The cover uses an edited overall photo with background cleanup and two loose external test leads removed; the edit record is in docs/photo-edit.md. Two concept illustrations and seven technical figures accompany it. Image prompts are in docs/image-prompts.md. The reference model is a documentation companion, not hardware firmware.

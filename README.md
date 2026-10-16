@@ -8,9 +8,9 @@ A breadboard hardware project combining optical transmission, an LDR-based recei
 
 [Project report (PDF)](docs/HammingLight_Project_Report.pdf) · [How it works](#how-it-works) · [Circuit diagrams](#circuit-diagrams) · [Run the reference demo](#run-the-reference-demo) · [Documentation](#documentation)
 
-![Actual HammingLight breadboard prototype with a cleaned background](assets/photos/04-prototype-cleaned.png)
+![Edited HammingLight prototype photo with loose external test leads removed](assets/photos/04-prototype-cleaned-no-test-leads.png)
 
-*Actual project photograph with AI-assisted background cleanup. The [unedited original](assets/photos/01-prototype-overview.jpg) is retained for comparison.*
+*Edited project photograph with background cleanup and the two loose external red/black test leads removed. The [unedited original](assets/photos/01-prototype-overview.jpg) is retained for comparison.*
 
 ## Project highlights
 

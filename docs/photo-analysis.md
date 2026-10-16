@@ -4,7 +4,7 @@ The three originals are preserved without retouching, cropping or removal of vis
 
 ## Photo 1: overall construction
 
-The report cover and README use a background-cleaned derivative of this photograph. Its edited status is labelled, and the original below is retained unchanged. See [photo-edit.md](photo-edit.md).
+The report cover and README use an edited derivative of this photograph with background cleanup and the two loose external red/black test leads removed at the builder's request. The original below is retained unchanged. See [photo-edit.md](photo-edit.md).
 
 ![Overview](../assets/photos/01-prototype-overview.jpg)
 

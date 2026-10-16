@@ -2,9 +2,9 @@
 
 Source: `photo_2026-10-16_18-25-17.jpg`, retained unchanged as `assets/photos/01-prototype-overview.jpg`.
 
-Edited output: `assets/photos/04-prototype-cleaned.png`.
+Edited output: `assets/photos/04-prototype-cleaned-no-test-leads.png`.
 
-The actual photograph was edited with the built-in image-generation tool to replace the background and remove surrounding clutter, with restrained clarity adjustments. It is used as the report cover and README's main photograph. It is labelled as AI-assisted background cleanup rather than an untouched source photograph. The prompt requests preservation of the board arrangement, components, wiring and displayed states. Use the unedited original for detailed source comparison.
+The actual photograph was edited with the built-in image-generation tool to replace the background and remove surrounding clutter, with restrained clarity adjustments. At the builder's request, a second edit removed the two thick loose red/black test leads entering from the left edge beside the purple loop. It is used as the report cover and README's main photograph. The image is labelled as edited. The thin purple loop, board wiring and black inter-board connection were retained. Use the unedited original for detailed source comparison.
 
 ## Exact edit prompt
 
