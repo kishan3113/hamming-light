@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="430" rx="24" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="sans-serif" font-size="34" font-weight="bold" fill="#13263E" text-anchor="start">Reference circuit: conditional bit correction</text>
+<text x="40" y="92" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Apply the same operation to each required output bit after error-location selection.</text>
+<path d="M 605 155 C 645 155 665 163 690 200 C 665 237 645 245 605 245 C 625 220 625 180 605 155 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 592 155 C 612 180 612 220 592 245" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="646" y="207" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<text x="85" y="189" font-family="sans-serif" font-size="28" font-weight="bold" fill="#13263E" text-anchor="start">Received bit r_i</text>
+<line x1="340" y1="180" x2="614" y2="180" stroke="#087E8B" stroke-width="3"/>
+<text x="85" y="256" font-family="sans-serif" font-size="28" font-weight="bold" fill="#13263E" text-anchor="start">Correction flag e_i</text>
+<path d="M 360 247 H 510 V 220 H 614" fill="none" stroke="#087E8B" stroke-width="3"/>
+<line x1="690" y1="200" x2="1100" y2="200" stroke="#087E8B" stroke-width="3"/>
+<polygon points="1100,200 1087.0,194.0 1087.0,206.0" fill="#087E8B"/>
+<text x="808" y="177" font-family="sans-serif" font-size="28" font-weight="bold" fill="#087E8B" text-anchor="start">Corrected bit c_i</text>
+<rect x="45" y="310" width="1110" height="79" rx="16" fill="#F3F7FA" stroke="#F3F7FA" stroke-width="2"/>
+<text x="67" y="345" font-family="monospace" font-size="27" font-weight="bold" fill="#13263E" text-anchor="start">c_i = r_i XOR e_i</text>
+<text x="67" y="376" font-family="sans-serif" font-size="23" font-weight="normal" fill="#617187" text-anchor="start">e_i = 1 when syndrome S equals position i; otherwise e_i = 0.</text>
+</svg>

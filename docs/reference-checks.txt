@@ -1,0 +1,7 @@
+Hamming(7,4) documentation reference model
+Validation run: 16 October 2026
+
+PASS: 16 clean + 112 single-bit cases = 128 cases
+Two-bit ambiguity confirmed; these are software checks, not hardware tests.
+
+No bench measurements are claimed by this record.

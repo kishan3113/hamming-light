@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="750" rx="24" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="sans-serif" font-size="34" font-weight="bold" fill="#13263E" text-anchor="start">Recovering one flipped bit</text>
+<text x="40" y="92" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Computed reference example: data 1001, even parity, error introduced at position 5.</text>
+<text x="45" y="189" font-family="sans-serif" font-size="26" font-weight="bold" fill="#13263E" text-anchor="start">Transmitted</text>
+<rect x="320" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="362" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<text x="362" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">1</text>
+<rect x="433" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="475" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<text x="475" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">2</text>
+<rect x="546" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="588" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<text x="588" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">3</text>
+<rect x="659" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="701" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<text x="701" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">4</text>
+<rect x="772" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="814" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<text x="814" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">5</text>
+<rect x="885" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="927" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<text x="927" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">6</text>
+<rect x="998" y="151" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="1040" y="195" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<text x="1040" y="136" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">7</text>
+<text x="45" y="319" font-family="sans-serif" font-size="26" font-weight="bold" fill="#13263E" text-anchor="start">Received</text>
+<rect x="320" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="362" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="433" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="475" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="546" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="588" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<rect x="659" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="701" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<rect x="772" y="281" width="84" height="64" rx="10" fill="#FBE9E7" stroke="#FBE9E7" stroke-width="2"/>
+<text x="814" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#BE4A4A" text-anchor="middle">1</text>
+<rect x="885" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="927" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="998" y="281" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="1040" y="325" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<text x="45" y="449" font-family="sans-serif" font-size="26" font-weight="bold" fill="#13263E" text-anchor="start">Corrected</text>
+<rect x="320" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="362" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="433" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="475" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="546" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="588" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<rect x="659" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="701" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<rect x="772" y="411" width="84" height="64" rx="10" fill="#E2F3ED" stroke="#E2F3ED" stroke-width="2"/>
+<text x="814" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="885" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="927" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">0</text>
+<rect x="998" y="411" width="84" height="64" rx="10" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="1040" y="455" font-family="monospace" font-size="34" font-weight="bold" fill="#13263E" text-anchor="middle">1</text>
+<rect x="45" y="555" width="1110" height="142" rx="16" fill="#F3F7FA" stroke="#F3F7FA" stroke-width="2"/>
+<text x="70" y="597" font-family="monospace" font-size="29" font-weight="bold" fill="#087E8B" text-anchor="start">Syndrome s4 s2 s1 = 101 (binary) = 5</text>
+<text x="70" y="638" font-family="sans-serif" font-size="25" font-weight="normal" fill="#26364B" text-anchor="start">Flip position 5; extract positions 3, 5, 6, 7.</text>
+<text x="70" y="675" font-family="monospace" font-size="25" font-weight="bold" fill="#13263E" text-anchor="start">Recovered data = 1001 (decimal 9)</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="520" rx="24" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="sans-serif" font-size="34" font-weight="bold" fill="#13263E" text-anchor="start">Reference circuit: 7405 inverter output</text>
+<text x="40" y="92" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Open-collector logic interface with an external pull-up. Values and pin assignment need the actual design.</text>
+<path d="M 400 200 L 400 320 L 540 260 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<circle cx="550" cy="260" r="10" fill="white" stroke="#087E8B" stroke-width="3"/>
+<text x="450" y="268" font-family="sans-serif" font-size="23" font-weight="bold" fill="#13263E" text-anchor="middle">7405</text>
+<line x1="150" y1="260" x2="400" y2="260" stroke="#087E8B" stroke-width="3"/>
+<text x="80" y="268" font-family="sans-serif" font-size="32" font-weight="bold" fill="#13263E" text-anchor="start">A</text>
+<line x1="560" y1="260" x2="1110" y2="260" stroke="#087E8B" stroke-width="3"/>
+<circle cx="820" cy="260" r="6" fill="#087E8B"/>
+<text x="820" y="150" font-family="sans-serif" font-size="25" font-weight="bold" fill="#13263E" text-anchor="middle">VCC</text>
+<line x1="820" y1="160" x2="820" y2="180" stroke="#087E8B" stroke-width="3"/>
+<rect x="802" y="180" width="36" height="58" rx="0" fill="#FFF1D9" stroke="#E9A23B" stroke-width="2"/>
+<line x1="820" y1="238" x2="820" y2="260" stroke="#087E8B" stroke-width="3"/>
+<text x="858" y="217" font-family="sans-serif" font-size="23" font-weight="normal" fill="#617187" text-anchor="start">Rpullup</text>
+<text x="960" y="305" font-family="monospace" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Y = NOT A</text>
+<text x="406" y="354" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Open-collector output</text>
+<rect x="45" y="404" width="1110" height="83" rx="16" fill="#F3F7FA" stroke="#F3F7FA" stroke-width="2"/>
+<text x="67" y="439" font-family="sans-serif" font-size="24" font-weight="normal" fill="#13263E" text-anchor="start">A = 0: pull-up establishes HIGH.   A = 1: output sinks current to LOW.</text>
+<text x="67" y="473" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Supply pins are omitted; select the pull-up for the actual load, voltage and timing.</text>
+</svg>

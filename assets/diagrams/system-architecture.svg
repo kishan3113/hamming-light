@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="790" rx="24" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="sans-serif" font-size="34" font-weight="bold" fill="#13263E" text-anchor="start">System architecture</text>
+<text x="40" y="92" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Functional reconstruction from the project description; physical bit mapping is unverified.</text>
+<rect x="30" y="126" width="1140" height="225" rx="16" fill="#F3F7FA" stroke="#F3F7FA" stroke-width="2"/>
+<text x="52" y="161" font-family="sans-serif" font-size="22" font-weight="bold" fill="#617187" text-anchor="start">TRANSMITTER</text>
+<rect x="52" y="182" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="74" y="222" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Binary input</text>
+<text x="74" y="258" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">User-selected data</text>
+<text x="74" y="289" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Switch / button interface</text>
+<rect x="427" y="182" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="449" y="222" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Hamming encoder</text>
+<text x="449" y="258" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Data + parity bits</text>
+<text x="449" y="289" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">XOR-based logic</text>
+<rect x="802" y="182" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="824" y="222" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Optical driver</text>
+<text x="824" y="258" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Electrical bit states</text>
+<text x="824" y="289" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Laser light output</text>
+<line x1="362" y1="253" x2="417" y2="253" stroke="#087E8B" stroke-width="3"/>
+<polygon points="417,253 404.0,247.0 404.0,259.0" fill="#087E8B"/>
+<line x1="737" y1="253" x2="792" y2="253" stroke="#087E8B" stroke-width="3"/>
+<polygon points="792,253 779.0,247.0 779.0,259.0" fill="#087E8B"/>
+<line x1="958" y1="324" x2="958" y2="443" stroke="#087E8B" stroke-width="3" stroke-dasharray="10 8"/>
+<polygon points="958,443 964.0,430.0 952.0,430.0" fill="#087E8B"/>
+<text x="925" y="391" font-family="sans-serif" font-size="23" font-weight="normal" fill="#087E8B" text-anchor="end">Light path(s)</text>
+<rect x="30" y="444" width="1140" height="235" rx="16" fill="#F3F7FA" stroke="#F3F7FA" stroke-width="2"/>
+<text x="52" y="478" font-family="sans-serif" font-size="22" font-weight="bold" fill="#617187" text-anchor="start">RECEIVER</text>
+<rect x="802" y="500" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="824" y="540" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Optical sensing</text>
+<text x="824" y="576" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">LDR + electrical interface</text>
+<text x="824" y="607" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Recover logic levels</text>
+<rect x="427" y="500" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="449" y="540" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Check and correct</text>
+<text x="449" y="576" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Parity-check syndrome</text>
+<text x="449" y="607" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Single-bit inversion</text>
+<rect x="52" y="500" width="310" height="142" rx="16" fill="#EAF5F7" stroke="#EAF5F7" stroke-width="2"/>
+<text x="74" y="540" font-family="sans-serif" font-size="27" font-weight="bold" fill="#087E8B" text-anchor="start">Decode and display</text>
+<text x="74" y="576" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">Extract recovered data</text>
+<text x="74" y="607" font-family="sans-serif" font-size="23" font-weight="normal" fill="#26364B" text-anchor="start">BCD / seven-segment</text>
+<line x1="802" y1="571" x2="747" y2="571" stroke="#087E8B" stroke-width="3"/>
+<polygon points="747,571 760.0,577.0 760.0,565.0" fill="#087E8B"/>
+<line x1="427" y1="571" x2="372" y2="571" stroke="#087E8B" stroke-width="3"/>
+<polygon points="372,571 385.0,577.0 385.0,565.0" fill="#087E8B"/>
+<text x="45" y="726" font-family="sans-serif" font-size="23" font-weight="normal" fill="#617187" text-anchor="start">Selection logic: two 16:1 multiplexers are reported; their circuit positions are unverified.</text>
+<text x="45" y="760" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Arrays are visible in the photos. Serial timing or parallel channel assignment is not established.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="340" rx="24" fill="#13263E"/>
+<text x="52" y="66" font-family="sans-serif" font-size="25" font-weight="bold" fill="#67D4D8" text-anchor="start">HAMMINGLIGHT</text>
+<text x="52" y="137" font-family="sans-serif" font-size="47" font-weight="bold" fill="#FFFFFF" text-anchor="start">Digital data. Optical signals.</text>
+<text x="52" y="193" font-family="sans-serif" font-size="27" font-weight="normal" fill="#C4D4E4" text-anchor="start">Laser communication with Hamming error correction</text>
+<text x="52" y="283" font-family="sans-serif" font-size="21" font-weight="normal" fill="#C4D4E4" text-anchor="start">HARDWARE  /  DIGITAL LOGIC  /  ERROR CONTROL</text>
+<rect x="885" y="88" width="24" height="50" rx="5" fill="#087E8B" stroke="#087E8B" stroke-width="2"/>
+<line x1="897" y1="151" x2="897" y2="239" stroke="#67D4D8" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="897" cy="261" r="8" fill="#E9A23B"/>
+<rect x="918" y="88" width="24" height="50" rx="5" fill="#36506D" stroke="#36506D" stroke-width="2"/>
+<line x1="930" y1="151" x2="930" y2="239" stroke="#36506D" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="930" cy="261" r="8" fill="#E9A23B"/>
+<rect x="951" y="88" width="24" height="50" rx="5" fill="#36506D" stroke="#36506D" stroke-width="2"/>
+<line x1="963" y1="151" x2="963" y2="239" stroke="#36506D" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="963" cy="261" r="8" fill="#E9A23B"/>
+<rect x="984" y="88" width="24" height="50" rx="5" fill="#087E8B" stroke="#087E8B" stroke-width="2"/>
+<line x1="996" y1="151" x2="996" y2="239" stroke="#67D4D8" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="996" cy="261" r="8" fill="#E9A23B"/>
+<rect x="1017" y="88" width="24" height="50" rx="5" fill="#087E8B" stroke="#087E8B" stroke-width="2"/>
+<line x1="1029" y1="151" x2="1029" y2="239" stroke="#67D4D8" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="1029" cy="261" r="8" fill="#E9A23B"/>
+<rect x="1050" y="88" width="24" height="50" rx="5" fill="#36506D" stroke="#36506D" stroke-width="2"/>
+<line x1="1062" y1="151" x2="1062" y2="239" stroke="#36506D" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="1062" cy="261" r="8" fill="#E9A23B"/>
+<rect x="1083" y="88" width="24" height="50" rx="5" fill="#36506D" stroke="#36506D" stroke-width="2"/>
+<line x1="1095" y1="151" x2="1095" y2="239" stroke="#36506D" stroke-width="2" stroke-dasharray="10 8"/>
+<circle cx="1095" cy="261" r="8" fill="#E9A23B"/>
+</svg>

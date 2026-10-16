@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087E8B"/></marker></defs>
+<rect width="1200" height="850" rx="24" fill="#FFFFFF"/>
+<text x="40" y="54" font-family="sans-serif" font-size="34" font-weight="bold" fill="#13263E" text-anchor="start">Reference circuit: Hamming(7,4) encoder</text>
+<text x="40" y="92" font-family="sans-serif" font-size="22" font-weight="normal" fill="#617187" text-anchor="start">Gate-level even-parity network. Logical gates are shown; IC pin numbers are intentionally omitted.</text>
+<rect x="35" y="132" width="1130" height="173" rx="12" fill="#F7F9FB" stroke="#F7F9FB" stroke-width="2"/>
+<path d="M 405 160 C 445 160 465 168 490 205 C 465 242 445 250 405 250 C 425 225 425 185 405 160 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 392 160 C 412 185 412 225 392 250" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="446" y="212" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<path d="M 805 180 C 845 180 865 188 890 225 C 865 262 845 270 805 270 C 825 245 825 205 805 180 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 792 180 C 812 205 812 245 792 270" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="846" y="232" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<text x="110" y="193" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d1</text>
+<text x="110" y="233" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d2</text>
+<text x="110" y="303" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d4</text>
+<line x1="165" y1="185" x2="414" y2="185" stroke="#087E8B" stroke-width="3"/>
+<line x1="165" y1="225" x2="414" y2="225" stroke="#087E8B" stroke-width="3"/>
+<line x1="490" y1="205" x2="814" y2="205" stroke="#087E8B" stroke-width="3"/>
+<text x="590" y="187" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">d1 XOR d2</text>
+<path d="M 165 295 H 650 V 245 H 814" fill="none" stroke="#087E8B" stroke-width="3"/>
+<line x1="890" y1="225" x2="1060" y2="225" stroke="#087E8B" stroke-width="3"/>
+<text x="1080" y="234" font-family="monospace" font-size="32" font-weight="bold" fill="#087E8B" text-anchor="start">p1</text>
+<rect x="35" y="322" width="1130" height="173" rx="12" fill="#F7F9FB" stroke="#F7F9FB" stroke-width="2"/>
+<path d="M 405 350 C 445 350 465 358 490 395 C 465 432 445 440 405 440 C 425 415 425 375 405 350 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 392 350 C 412 375 412 415 392 440" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="446" y="402" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<path d="M 805 370 C 845 370 865 378 890 415 C 865 452 845 460 805 460 C 825 435 825 395 805 370 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 792 370 C 812 395 812 435 792 460" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="846" y="422" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<text x="110" y="383" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d1</text>
+<text x="110" y="423" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d3</text>
+<text x="110" y="493" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d4</text>
+<line x1="165" y1="375" x2="414" y2="375" stroke="#087E8B" stroke-width="3"/>
+<line x1="165" y1="415" x2="414" y2="415" stroke="#087E8B" stroke-width="3"/>
+<line x1="490" y1="395" x2="814" y2="395" stroke="#087E8B" stroke-width="3"/>
+<text x="590" y="377" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">d1 XOR d3</text>
+<path d="M 165 485 H 650 V 435 H 814" fill="none" stroke="#087E8B" stroke-width="3"/>
+<line x1="890" y1="415" x2="1060" y2="415" stroke="#087E8B" stroke-width="3"/>
+<text x="1080" y="424" font-family="monospace" font-size="32" font-weight="bold" fill="#087E8B" text-anchor="start">p2</text>
+<rect x="35" y="512" width="1130" height="173" rx="12" fill="#F7F9FB" stroke="#F7F9FB" stroke-width="2"/>
+<path d="M 405 540 C 445 540 465 548 490 585 C 465 622 445 630 405 630 C 425 605 425 565 405 540 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 392 540 C 412 565 412 605 392 630" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="446" y="592" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<path d="M 805 560 C 845 560 865 568 890 605 C 865 642 845 650 805 650 C 825 625 825 585 805 560 Z" fill="#EAF5F7" stroke="#087E8B" stroke-width="3"/>
+<path d="M 792 560 C 812 585 812 625 792 650" fill="none" stroke="#087E8B" stroke-width="3"/>
+<text x="846" y="612" font-family="sans-serif" font-size="16" font-weight="bold" fill="#13263E" text-anchor="middle">XOR</text>
+<text x="110" y="573" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d2</text>
+<text x="110" y="613" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d3</text>
+<text x="110" y="683" font-family="monospace" font-size="30" font-weight="bold" fill="#13263E" text-anchor="start">d4</text>
+<line x1="165" y1="565" x2="414" y2="565" stroke="#087E8B" stroke-width="3"/>
+<line x1="165" y1="605" x2="414" y2="605" stroke="#087E8B" stroke-width="3"/>
+<line x1="490" y1="585" x2="814" y2="585" stroke="#087E8B" stroke-width="3"/>
+<text x="590" y="567" font-family="sans-serif" font-size="21" font-weight="normal" fill="#617187" text-anchor="middle">d2 XOR d3</text>
+<path d="M 165 675 H 650 V 625 H 814" fill="none" stroke="#087E8B" stroke-width="3"/>
+<line x1="890" y1="605" x2="1060" y2="605" stroke="#087E8B" stroke-width="3"/>
+<text x="1080" y="614" font-family="monospace" font-size="32" font-weight="bold" fill="#087E8B" text-anchor="start">p4</text>
+<text x="45" y="774" font-family="sans-serif" font-size="25" font-weight="normal" fill="#13263E" text-anchor="start">Codeword order: p1 p2 d1 p4 d2 d3 d4 (positions 1 to 7, left to right).</text>
+<text x="45" y="814" font-family="sans-serif" font-size="23" font-weight="normal" fill="#617187" text-anchor="start">Six two-input XOR gates are required here. This is a reference design, not a traced prototype.</text>
+</svg>
